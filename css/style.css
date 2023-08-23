@@ -1,0 +1,106 @@
+.tagline{
+    font-size: 10px;
+    color: rgb(207, 198, 198);
+}
+
+.first{
+    position: relative;
+    height: 80vh;
+}
+
+.fixd{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+ 
+}
+
+
+.fhalf{
+    background-image: url(../images/banner.png);
+    background-position: center center;
+    background-size: cover;
+    height: 50vh;
+}
+.shalf{
+  
+    height: 50vh;
+}
+.search{
+    position: relative;
+}
+
+.searchbtn{
+    position: absolute;
+    right: 10.2%;
+    top: 2px;
+ width: 10%;
+ height:50% ;
+ z-index: 500 !important;
+ 
+}
+
+
+.searchbtn2{
+    position: absolute;
+    right: 13%;
+    top: 2px;
+ 
+ height:50% ;
+ z-index: 500 !important;
+ 
+}
+.cardhead{
+    background-color: #323544;
+    border-top-left-radius: 10px;
+ 
+    
+}
+
+.wdeg{
+font-size: 6rem;
+font-weight: 600;
+}
+
+.cardbody{
+    background-color: #262936;
+    border-bottom-left-radius: 10px;
+}
+
+.cardhead2{
+    background-color: #1f212b;
+}
+
+.cardbody2{
+    background-color:  #282b3b;
+  
+}
+
+.cardhead3{
+    background-color: #323544;
+    border-top-right-radius: 10px;
+
+}
+
+.cardbody3{
+    background-color: #262936;
+    border-bottom-right-radius: 10px;
+ 
+    
+}
+
+
+.icon{
+    width: 35px;
+    height: 35px;
+  }
+
+.icon:hover{
+    background-color: rgb(51, 144, 202) ;
+    color: white ;
+}
+.form-control::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.502) !important;
+}
